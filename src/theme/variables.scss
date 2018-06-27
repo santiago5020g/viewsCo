@@ -42,6 +42,12 @@ $colors: (
 );
 
 
+
+//sizes
+$size1: 1em;
+$size2: 1.5em;
+$size3: 2em;
+
 // App iOS Variables
 // --------------------------------------------------
 // iOS only Sass variables can go here
@@ -86,3 +92,26 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+
+
+
+$font-family-base: "Roboto" !default;
+// body{
+//   font-family: "Roboto" !important;
+//   font-weight: 400 !important;
+// }
+
+$font-family-md-base: "Roboto" !important;
+
+h1, h2, button {
+  font-family: "Roboto" !important;
+  font-weight: 300 !important;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  text-align: center;
+}
+
+
+$font-size-md-base: $size2;
+$toolbar-md-height: $size3;
